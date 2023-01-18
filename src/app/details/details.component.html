@@ -1,0 +1,56 @@
+<!-- <p>details works!</p> -->
+
+<!-- <div>
+  <label for="">Search</label>
+  <input type="search" [(ngModel)]="searched">
+</div>
+<button (click)="find()">Search Here</button>
+
+<div class="container">
+  <div class="row">
+    <div *ngFor="let item of productdetails[0].sub" class="col-md-3 col-lg-4 col-sm-12">     
+      <div *ngIf="search === '' || item.name.toLowerCase().includes(search)">
+          <div class="card h-100" style="width: 18rem">
+            <img src="{{item.image}}" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">{{item.name}}</h5>
+              <p class="card-title">{{item.Desc}}</p>
+                <a routerLink="/info/{{productdetails[0].prod_Id}}/{{item.sub_id}}" class="btn btn-primary">More Info</a>             
+            </div>
+          </div>
+      </div>
+        
+    </div>
+  </div>
+</div> -->
+
+
+<div class="container">
+  <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search"  >
+    <input type="search" class="form-control search" placeholder="Search..." aria-label="Search"    >
+  </form> -->
+  <div class="search">
+    <label for="">Search:</label>
+    <input type="text" [(ngModel)]="search" >
+    <button (click)="findd()">search</button>
+  </div>
+</div>
+<div class="container">
+    <div class="row ">
+      <div class="col-md-3 " *ngFor="let item of productdetails[0].sub | filter:search" class="col-md-3 col-lg-4 col-sm-12">
+          <!-- <div *ngIf="search ===''||item.name.toLowerCase().includes(search)"> -->
+            <div class="card" style="width: 18rem;" >
+              <img src={{item.image}} class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">{{item.name}}</h5>
+                <p class="card-text">{{item.Desc}}</p>
+                <a class="btn btn-primary" routerLink="/info/{{productdetails[0].prod_Id}}/{{item.sub_id}}">Go details</a>
+              </div>
+            </div>
+          <!-- </div> -->
+      </div>
+  </div>
+
+</div>
+
+

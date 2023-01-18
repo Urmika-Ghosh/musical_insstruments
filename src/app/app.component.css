@@ -1,0 +1,25 @@
+.upperBanner{
+    background-color: rgb(239, 186, 86);
+}
+
+.lowerBanner{
+    background-color: rgb(134, 133, 133);
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    
+}
+
+.foot{
+    background-color: rgb(239, 186, 86);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    
+}
+
+.text-muted{
+    color: black !important;
+}
+
+.py-4{
+    padding-bottom: 0%;
+   }

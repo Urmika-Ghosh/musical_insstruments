@@ -1,0 +1,19 @@
+<!-- <p>products works!</p> -->
+<app-compo></app-compo>
+<div class="container mt-5" >
+    <div class="row" display="flex;">
+      <div class="col-sm-12 col-lg-4" *ngFor="let s of store">
+        <div class="card h-100" style="width: 18rem">
+          <img src="{{s.image}}" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <!-- <h5 class="card-title">{{s.image}}</h5> -->
+            <h5 class="card-title">{{s.name}}</h5>
+            <!-- <h5 class="card-title">{{s.intro}}</h5> -->
+              <a routerLink="/details/{{s.prod_Id}}" class="btn btn-primary">Details</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
