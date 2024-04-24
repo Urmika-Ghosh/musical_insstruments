@@ -7,7 +7,7 @@ export class ServiceService {
   Instruments=[
     { 
       prod_Id:1,
-      name:'Guiter', 
+      name:'GUITER', 
       image:'https://acousticlife.tv/wp-content/uploads/2018/04/Group-of-Seven-Guitars-Group-shot.jpg',
       intro:'Guitars are used in many different genres of music, such as traditional, regional, and folk to modern punk, rock, metal or pop.',     
       sub:[
@@ -59,7 +59,7 @@ export class ServiceService {
     ]},
     { 
       prod_Id:2,
-      name:'Violin', 
+      name:'VIOLIN', 
       image:'https://bloximages.chicago2.vip.townnews.com/lacrossetribune.com/content/tncms/assets/v3/editorial/2/71/271c5489-999f-5f48-870e-b53c5a473792/5a0227801cd86.image.jpg?resize=1200%2C675',
       intro:'The violin family comprises the violin, the viola, the cello (violoncello), and the double bass; it forms the backbone of the modern symphony orchestra.',
       sub:[
@@ -122,7 +122,7 @@ export class ServiceService {
     { 
       prod_Id:3,
       image:'https://preview.redd.it/gnq9c458kwd51.jpg?auto=webp&s=03c1ca454168b3810202dd0cb507a9cfaf2e209d',
-      name:'Flute', 
+      name:'FLUTE', 
       intro:'The flute family comprises Piccolo, Alto Flute, Bass Flute, Wooden flute, Eb Soprano Flute, c Flute, and Plastic Flute. These types of flutes share the same note fingerings.  But they also differ in terms of the amount of breath, breath support, and embouchure formation between them.',
       sub:[
         {
